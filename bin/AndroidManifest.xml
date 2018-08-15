@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.partiubike.favoritaslaranjinhario"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.javacodegeeks.android.tablayout_with_fragments.Principal"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="br.com.partiubike.favoritaslaranjinhario.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="br.com.partiubike.favoritaslaranjinhario.ConfigActivity"
+            android:label="@string/title_activity_config" >
+        </activity>
+        <activity
+            android:name="br.com.partiubike.favoritaslaranjinhario.Problema"
+            android:label="@string/title_activity_problema" >
+        </activity>
+        <activity
+            android:name="br.com.partiubike.favoritaslaranjinhario.ListarTodosProblemas"
+            android:label="@string/title_activity_listar_todos_problemas" >
+        </activity>
+        <activity
+            android:name="br.com.partiubike.favoritaslaranjinhario.FavoritasPrincipal"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="fragmentos.FimDeSemana"
+            android:label="@string/title_activity_fim_de_semana" >
+        </activity>
+        <activity
+            android:name="br.com.partiubike.favoritaslaranjinhario.StartPoint"
+            android:label="@string/title_activity_start_point" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sobre"
+            android:label="@string/title_activity_sobre" >
+        </activity>
+    </application>
+
+</manifest>

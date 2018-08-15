@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Favoritas Laranjinha Rio</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_config">Configurações</string>
+    <string name="title_activity_problema">Informar Problema com Estações e Bikes</string>
+    <string name="title_activity_listar_todos_problemas">Problemas Relatados</string>
+    <string name="title_activity_main">Favoritas Laranjinha Rio</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_fim_de_semana">Fim De Semana</string>
+    <string name="title_activity_start_point">Favoritas Laranjinha Carregando...</string>
+    <string name="title_activity_sobre">Sobre o App</string>
+
+</resources>
